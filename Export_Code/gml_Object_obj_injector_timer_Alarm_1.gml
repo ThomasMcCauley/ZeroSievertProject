@@ -1,0 +1,22 @@
+global.injector_factor[(0 << 0)] -= item_inj_get_max_hp(injector_id)
+global.injector_factor[(1 << 0)] -= item_inj_get_hp_regen(injector_id)
+global.injector_factor[(2 << 0)] -= item_inj_get_bleed_rec(injector_id)
+global.injector_factor[(3 << 0)] -= item_inj_get_bleed_immune(injector_id)
+global.injector_factor[(4 << 0)] -= item_inj_get_stamina_max(injector_id)
+global.injector_factor[(5 << 0)] -= item_inj_get_stamina_regen(injector_id)
+global.injector_factor[(6 << 0)] -= item_inj_get_max_weight(injector_id)
+global.injector_factor[(7 << 0)] -= item_inj_get_rad_regen(injector_id)
+global.injector_factor[(8 << 0)] -= item_inj_get_rad_def(injector_id)
+global.injector_factor[(9 << 0)] -= item_inj_get_hunger(injector_id)
+global.injector_factor[(10 << 0)] -= item_inj_get_hunger_regen(injector_id)
+global.injector_factor[(11 << 0)] -= item_inj_get_thirst(injector_id)
+global.injector_factor[(12 << 0)] -= item_inj_get_thirst_regen(injector_id)
+var a = injector_id
+with (player_get_local())
+{
+    hp_max -= item_inj_get_max_hp(a)
+    bleed_immune -= item_inj_get_bleed_immune(a)
+    stamina_max -= item_inj_get_stamina_max(a)
+    radiation_defence -= item_inj_get_rad_def(a)
+}
+instance_destroy()

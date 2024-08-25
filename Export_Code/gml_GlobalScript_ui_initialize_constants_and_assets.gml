@@ -1,0 +1,7 @@
+function ui_initialize_constants_and_assets() //gml_Script_ui_initialize_constants_and_assets
+{
+    gml_Script_uiCatspeakGetEnvironment().gml_Script_uiCatspeakGetEnvironment().addConstant("c_aqua", 16776960, "c_black", 0, "c_blue", 16711680, "c_dkgray", 4210752, "c_dkgrey", 4210752, "c_fuchsia", 16711935, "c_grey", 8421504, "c_gray", 8421504, "c_green", 32768, "c_lime", 65280, "c_ltgray", 12632256, "c_ltgrey", 12632256, "c_maroon", 128, "c_navy", 8388608, "c_olive", 32896, "c_orange", 4235519, "c_purple", 8388736, "c_red", 255, "c_silver", 12632256, "c_teal", 8421376, "c_white", 16777215, "c_yellow", 65535, "c_accept_green", 6003559, "c_stat_green", 9688723, "c_stat_red", 5855724)
+    gml_Script_uiCatspeakGetEnvironment().gml_Script_uiCatspeakGetEnvironment().addConstant("GUI_SCALE", 4)
+    gml_Script_uiCatspeakGetEnvironment().gml_Script_uiCatspeakGetEnvironment().addConstant("s_zs_title_main_menu", 1009, "s_zs_menu_bar", 2198, "s_t_movement", 2032, "s_t_inv", 2033, "s_t_device", 2036, "s_t_combat", 2034, "s_t_need", 2038, "s_t_att", 2037, "s_hud_freccia", 2031, "s_hud_inv", 1417, "s_hud_inv_trading", 1418, "s_hud_inv_storage", 1419, "s_roubles_8x8", 2079, "s_hud_craft_2", 1431, "s_hud_item_spawn", 1430, "s_hud_mod", 1432, "s_hud_trader_icon", 1423, "s_hud_slider_bar_9slice_thick", 2145, "s_hud_slider_bar_9slice_thin", 7, "s_hud_checkbox_9slice", 2116, "s_hud_modal_background_9slice", 2193, "s_hud_pda_modal_background_9slice", 2241)
+}
+
